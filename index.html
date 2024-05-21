@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        var corrPass = prompt('Create a New Your Password')
+        var confirmPass = prompt('Enter Your Password')
+
+        if (corrPass === confirmPass) {
+            alert('Congragulation You are Sign up')
+        } else {
+            alert('incorrect Password')
+        }
+
+
+
+        var inptTime = +prompt ('Enter Your Hour Time')
+
+          if (inptTime >= 0 && inptTime < 1200 ) {
+            document.write ('<br> <br> Good Morning')
+          } else if(inptTime >= 1200 && inptTime < 1700 ) {
+            document.write ('<br> <br> Good AfterNoon ')
+          } else if(inptTime >= 1700 && inptTime < 1900 ) {
+            document.write ('<br> <br> Goog Evening')
+          } else if(inptTime >= 1900 && inptTime < 2359 ) {
+            document.write ('<br> <br> Goog Night')
+          } 
+          
+
+    </script>
+    
+</body>
+</html>
